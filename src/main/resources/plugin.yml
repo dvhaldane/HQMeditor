@@ -1,0 +1,22 @@
+name: HQMeditor
+main: net.kaikk.mc.hqmeditor.HQMeditor
+version: 1.1
+author: KaiNoMood
+
+commands:
+   hqmreset:
+      description: Reset their own HQM data
+      permission: hqmreset
+      permission-message: <permission> is required to execute this command.
+   hqmeditor:
+      description: Edit HQM data
+      permission: hqmeditor
+      permission-message: <permission> is required to execute this command.
+
+permissions:
+    hqmreset:
+        description: Permits players to reset their own HQM data
+        default: true
+    hqmeditor:
+        description: Permits administrators to edit HQM data
+        default: op
